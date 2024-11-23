@@ -1,3 +1,7 @@
+   language: ruby
+   rvm:
+    - 2.2
+    - jruby
 before_install:
 - gem install bundler -v 2.0.1
 script:
